@@ -1,5 +1,10 @@
+KWERENDA 1:
 1. SELECT marka, rocznik FROM samochody WHERE kolor = 'niebieski';
+KWERENDA 2:
 2. SELECT COUNT(*) FROM samochody WHERE marka IN('Toyota', 'Opel') AND stan = 'bardzo dobry';
+KWERENDA 3:
 3. UPDATE samochody SET stan = 'dobry' WHERE rocznik < 2004;
+KWERENDA 4:
 4. CREATE USER "jan"@"localhost" IDENTIFIED BY "janKowalski1@";
+KWERENDA 5:
 5. GRANT SELECT, INSERT, UPDATE ON samochody.* TO 'jan'@'localhost';
