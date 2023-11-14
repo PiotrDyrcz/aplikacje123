@@ -1,4 +1,4 @@
-KWERENDA 1:
+KWERENDA 1;
 1. SELECT marka, rocznik FROM samochody WHERE kolor = 'niebieski';
 KWERENDA 2:
 2. SELECT COUNT(*) FROM samochody WHERE marka IN('Toyota', 'Opel') AND stan = 'bardzo dobry';
